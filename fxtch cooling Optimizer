@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>fxtch Cooling Optimizer – Downloads</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+
+body {
+    margin: 0;
+    background: #0a0a0f;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+header {
+    padding: 50px;
+    text-align: center;
+    background: linear-gradient(90deg, #111827, #0f172a);
+    border-bottom: 2px solid #1f2937;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 42px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    color: #00f7ff;
+    margin-top: 10px;
+}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.versions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.version-card {
+    background: #111827;
+    padding: 40px;
+    border-radius: 18px;
+    border: 1px solid #1f2937;
+    transition: 0.3s ease;
+    position: relative;
+}
+
+.version-card:hover {
+    transform: translateY(-8px);
+    border-color: #00f7ff;
+}
+
+.version-card h2 {
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 0;
+}
+
+.badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #00f7ff;
+    color: black;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.warning {
+    color: #ff6b6b;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.features {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 1.7;
+    color: #cbd5e1;
+}
+
+.download-btn {
+    margin-top: 30px;
+    padding: 16px 40px;
+    font-size: 16px;
+    background: linear-gradient(90deg, #00f7ff, #0077ff);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.download-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00f7ff;
+}
+
+.footer {
+    text-align: center;
+    padding: 25px;
+    background: #111827;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>fxtch Cooling Optimizer</h1>
+    <div class="subtitle">Official Download Center</div>
+</header>
+
+<section class="section">
+    <h2>Select Your Optimization Engine</h2>
+
+    <div class="versions">
+
+        <!-- Version 2.1 -->
+        <div class="version-card">
+            <h2>Version 2.1</h2>
+            <div class="badge">GPU Engine</div>
+            <p>
+                Utilizes GPU-assisted thermal balancing and graphics-driven optimization cycles
+                for enhanced performance responsiveness.
+            </p>
+
+            <div class="features">
+                ✔ GPU-Based Optimization Core<br>
+                ✔ Smart Thermal Rendering Logic<br>
+                ✔ Graphics Load Distribution<br>
+                ✔ Gaming Mode Boost<br>
+                ✔ Windows 10 / 11 Support
+            </div>
+
+            <div class="warning">
+                ⚠ Not recommended for older or low-end GPUs. May cause instability on legacy graphics hardware.
+            </div>
+
+            <button class="download-btn">
+                Download v2.1 (.exe)
+            </button>
+        </div>
+
+        <!-- Version 3.1 -->
+        <div class="version-card">
+            <h2>Version 3.1</h2>
+            <div class="badge">Latest – CPU Core</div>
+            <p>
+                Powered by a redesigned CPU-driven optimization engine for broader compatibility
+                and improved system stability.
+            </p>
+
+            <div class="features">
+                ✔ CPU-Based Optimization Framework<br>
+                ✔ Adaptive Load Management<br>
+                ✔ Advanced Thread Priority Control<br>
+                ✔ 25% Faster Optimization Cycle<br>
+                ✔ Compatible with Older GPUs
+            </div>
+
+            <button class="download-btn">
+                Download v3.1 (.exe)
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<div class="footer">
+    © 2026 fxtch Technologies. All rights reserved.
+</div>
+
+</body>
+</html>
