@@ -82,6 +82,11 @@ h1 {
     font-size: 13px;
     margin-top: 15px;
 }
+.warning1 {
+    color: #148f33;
+    font-size: 13px;
+    margin-top: 15px;
+}
 
 .features {
     text-align: left;
@@ -152,7 +157,8 @@ h1 {
                 ⚠ Not recommended for older or low-end GPUs.
             </div>
 
-            <a href="fxtch cooling Optimizer(v2.1).zip" 
+            <a id="download" 
+               href="fxtch cooling Optimizer(v2.1).zip" 
                download="fxtch cooling Optimizer(v2.1).zip" 
                class="download-btn">
                Download fxtch cooling Optimizer (v2.1).zip
@@ -174,8 +180,11 @@ h1 {
                 ✔ 25% Faster Optimization Cycle<br>
                 ✔ Compatible with Older GPUs
             </div>
-
-            <a href="fxtch cooling Optimizer(v3.1).zip" 
+            <div class="warning1">
+                ⚠ better for older or low-end GPUs.
+            </div>
+            <a id="download"
+               href="fxtch cooling Optimizer(v3.1).zip" 
                download="fxtch cooling Optimizer(v3.1).zip" 
                class="download-btn">
                Download fxtch cooling Optimizer (v3.1).zip
@@ -184,7 +193,7 @@ h1 {
 
     </div>
 </section>
-<script src="assets.js"</script>
+<script src="assets.js"></script>
 
 <div class="footer">
     © 2026 fxtch Technologies. All rights reserved.
